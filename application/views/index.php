@@ -10,6 +10,13 @@
 <link rel="stylesheet" href="templates/ibr2015/includes/bootstrap/css/bootstrap-theme.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="templates/ibr2015/includes/bootstrap/js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#gohome").on('click', function(){
+			window.location = "/";
+		});
+	});
+</script>
 </head>
 <body>
 <div class="container">
@@ -21,6 +28,10 @@
                 <p class="text-right"><span class="label label-default">CodeIgniter</span> <span class="label label-primary">Bootstrap</span> <span class="label label-danger">HTML5</span></p>
             </div>
         </div>
+        <hr>
+        <a href="/" class="btn btn-lg btn-primary">asdasd</a>
+        <button id="gohome" class="btn btn-danger">Otro</button>
+        
     </div>
 </div>
 </body>

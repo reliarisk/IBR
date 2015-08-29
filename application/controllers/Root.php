@@ -7,4 +7,11 @@ class Root extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
+	
+	public function dashboard(){
+		$this->load->model('user_model', 'user');
+		$data['user'] = $this->user->getUser();
+		$data['fecha'] = "2015-08-15";
+		$this->load->view('dashboard', $data);
+	}
 }
