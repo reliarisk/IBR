@@ -5,7 +5,7 @@ class Root extends CI_Controller {
 
 	public function index()
 	{
-		return $this->login();
+		redirect("login");
 		$this->load->view('index');
 	}
 	
