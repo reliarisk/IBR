@@ -83,7 +83,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 's-cdbr-azure-east-b.cloudapp.net',
+	'hostname' => 'us-cdbr-azure-east-b.cloudapp.net',//'s-cdbr-azure-east-b.cloudapp.net',
 	'username' => 'b178002c03d52d',
 	'password' => '6f9d6e3a',
 	'database' => 'ibrdev',
