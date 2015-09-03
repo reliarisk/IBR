@@ -6,10 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>IBR</title>
 <link rel="stylesheet" href="<?= base_url("templates/ibr2015/css/ibr.css") ?>">
-<link rel="stylesheet" href="templates/ibr2015/includes/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="templates/ibr2015/includes/bootstrap/css/bootstrap-theme.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="templates/ibr2015/includes/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="<?= base_url("templates/ibr2015/includes/bootstrap/css/bootstrap.min.css");?>">
+<link rel="stylesheet" href="<?= base_url("templates/ibr2015/includes/bootstrap/css/bootstrap-theme.min.css");?>">
+<script src="<?= base_url("https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js") ?>"></script>
+<script src="<?= base_url("templates/ibr2015/includes/bootstrap/js/bootstrap.min.js")?>"></script>
 <script>
 	$(document).ready(function(){
 		$("#gohome").on('click', function(){
