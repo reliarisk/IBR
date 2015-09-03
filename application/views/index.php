@@ -31,7 +31,6 @@
         <hr>
         <a href="/" class="btn btn-lg btn-primary">asdasd</a>
         <button id="gohome" class="btn btn-danger">Otro</button>
-        <?php if(isset($query)){ print_r($query); }?>
     </div>
 </div>
 </body>

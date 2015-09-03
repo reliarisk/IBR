@@ -5,8 +5,6 @@ class Root extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->model('user_model', 'user');
-		$data['query'] = $this->user->testDB();
 		$this->load->view('index', $data);
 	}
 	
