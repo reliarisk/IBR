@@ -7,3 +7,7 @@ if(!$link){
 }else{
 	echo "database ok";	
 }
+
+echo "<br>";
+
+print_r($_SERVER);
