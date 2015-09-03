@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://ibrdev.azurewebsites.net/';
+$config['base_url'] = 'https://ibrdev.azurewebsites.net/';
 
 /*
 |--------------------------------------------------------------------------
