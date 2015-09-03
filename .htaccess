@@ -1,0 +1,12 @@
+Options +FollowSymlinks -Indexes
+RewriteEngine on
+
+
+## in case the URL is not an actual FILE
+RewriteCond %{REQUEST_FILENAME} !-f
+
+## or an actual directory
+RewriteCond %{REQUEST_FILENAME} !-d
+
+## send everything to the index, for MVC
+RewriteRule ^.*$ ./index.php
