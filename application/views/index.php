@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="<?= base_url("templates/ibr2015/css/ibr.css") ?>">
 <link rel="stylesheet" href="<?= base_url("templates/ibr2015/includes/bootstrap/css/bootstrap.min.css");?>">
 <link rel="stylesheet" href="<?= base_url("templates/ibr2015/includes/bootstrap/css/bootstrap-theme.min.css");?>">
-<script src="<?= base_url("https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js") ?>"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="<?= base_url("templates/ibr2015/includes/bootstrap/js/bootstrap.min.js")?>"></script>
 <script>
 	$(document).ready(function(){
