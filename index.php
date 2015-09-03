@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Index test</title>
+	<title> Index test :)</title>
 </head>
 <body>
 
