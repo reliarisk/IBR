@@ -73,12 +73,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
+//db conn string
+/*
+ * Database=ibrdev;
+ * Data Source=us-cdbr-azure-east-b.cloudapp.net;
+ * User Id=b178002c03d52d;
+ * Password=6f9d6e3a
+ * */
+
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 's-cdbr-azure-east-b.cloudapp.net',
+	'username' => 'b178002c03d52d',
+	'password' => '6f9d6e3a',
+	'database' => 'ibrdev',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
