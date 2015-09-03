@@ -5,7 +5,12 @@ class Root extends CI_Controller {
 
 	public function index()
 	{
+		return $this->login();
 		$this->load->view('index');
+	}
+	
+	public function login(){
+		$this->load->view('user/login');	
 	}
 	
 	public function dashboard(){
