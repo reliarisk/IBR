@@ -87,7 +87,7 @@ $db['default'] = array(
 	'username' => 'b178002c03d52d',
 	'password' => '6f9d6e3a',
 	'database' => 'ibrdev',
-	'dbdriver' => 'mysql',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => FALSE,//(ENVIRONMENT !== 'production'),
