@@ -15,6 +15,10 @@
 		$("#gohome").on('click', function(){
 			window.location = "/";
 		});
+	$('#info').click(function (e) {
+  e.preventDefault()
+  $('#message').html('<div class="alert alert-info fade in"><button type="button" class="close close-alert" data-dismiss="alert" aria-hidden="true">×</button>Array!!</div>');
+})
 	});
 </script>
 </head>
@@ -30,7 +34,7 @@
         </div>
         <hr>
         <a href="/" class="btn btn-lg btn-primary">asdasd</a>
-        <a onClick="alert('Array!!!!'); return true" class="btn btn-lg btn-primary">["hip","hip"]</a>
+        <button type="button" class="btn btn-info" id="info">["hip", "hip"]</button>
         <button id="gohome" class="btn btn-danger">Otro</button>
     </div>
 </div>
