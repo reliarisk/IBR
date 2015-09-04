@@ -34,7 +34,7 @@
         </div>
         <hr>
         <a href="/" class="btn btn-lg btn-primary">asdasd</a>
-        <button type="button" class="btn btn-info" id="info">["hip", "hip"]</button>
+        <button type="button" class="btn btn-lg btn-info" id="info">["hip", "hip"]</button>
         <button id="gohome" class="btn btn-danger">Otro</button>
     </div>
     <div id="message"></div>
