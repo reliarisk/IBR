@@ -23,7 +23,7 @@
 	<div class="header">
         <div class="row">
             <div class="col-xs-12">
-                <h1>It's Working!</h1>
+                <h1>Mike and Chichito's Love Affair!</h1>
                 <p class="alert alert-success"><span class="glyphicon glyphicon-ok"></span> CodeIgniter and Bootstrap has been succesfully installed!</p>
                 <p class="text-right"><span class="label label-default">CodeIgniter</span> <span class="label label-primary">Bootstrap</span> <span class="label label-danger">HTML5</span></p>
             </div>
