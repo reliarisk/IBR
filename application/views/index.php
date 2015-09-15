@@ -34,7 +34,7 @@ body {
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="http://ibrdev.azurewebsites.net/">Home</a></li>
-            <li><a href="https://docs.google.com/forms/d/1ZSNuMGHvsBiWJpggjfXaCl9D7eAUqnj7GuvJB5aQ35M/viewform">Punch In</a></li>
+            <li><a href="https://docs.google.com/forms/d/1ZSNuMGHvsBiWJpggjfXaCl9D7eAUqnj7GuvJB5aQ35M/viewform">Punch-In</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -45,7 +45,7 @@ body {
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Aplicación en Desarrollo</h1>
-        <p>Este proyecto está creciendo ante sus ojos, pronto muchas más características serán añadidas. Mientras tanto sírvase a entrar en la opción “Punch in” del menú de navegación para reportar su participación en el proyecto.</p>
+        <p>Este proyecto está creciendo ante sus ojos, pronto muchas más características serán añadidas. Mientras tanto sírvase a entrar en la opción “Punch-In” del menú de navegación para reportar su participación en el proyecto.</p>
 
       </div>
 
