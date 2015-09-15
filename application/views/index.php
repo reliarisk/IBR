@@ -68,6 +68,17 @@ body {
       </div>
     </div>
     
+        <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Aplicaión en desarrollo</h1>
+        <p>Este proyecto está creciendo ante sus ojos, pronto muchas más características serán añadidas. Mientras tanto sírvase a entrar en la opción “Punch in” del menú de navegación para reportar su participación en el proyecto.</p>
+
+      </div>
+
+    </div> <!-- /container -->
+    
 <div class="container">
 	<div class="header">
         <div class="row">
