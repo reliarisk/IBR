@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="<?= base_url("templates/ibr2015/includes/bootstrap/css/bootstrap-theme.min.css");?>">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="<?= base_url("templates/ibr2015/includes/bootstrap/js/bootstrap.min.js")?>"></script>
-<script>
+<!--<script>
 	$(document).ready(function(){
 		$("#gohome").on('click', function(){
 			window.location = "/";
@@ -20,24 +20,33 @@
   $('#message').html('<div class="alert alert-info fade in"><button type="button" class="close close-alert" data-dismiss="alert" aria-hidden="true">×</button>Array!!</div>');
 })
 	});
-</script>
+</script>-->
+<style>
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+</style>
 </head>
 <body>
 <div class="container">
 	<div class="header">
         <div class="row">
             <div class="col-xs-12">
-                <h1>Mike and Chichito's Love Affair!</h1>
-                <p class="alert alert-success"><span class="glyphicon glyphicon-ok"></span> CodeIgniter and Bootstrap has been succesfully installed!</p>
-                <p class="text-right"><span class="label label-default">CodeIgniter</span> <span class="label label-primary">Bootstrap</span> <span class="label label-danger">HTML5</span></p>
+                <!--<h1>Mike and Chichito's Love Affair!</h1>-->
+               <!-- <p class="alert alert-success"><span class="glyphicon glyphicon-ok"></span> CodeIgniter and Bootstrap has been succesfully installed!</p>-->
+               
             </div>
         </div>
         <hr>
-        <a href="/" class="btn btn-lg btn-primary">asdasd</a>
+        <!--<a href="/" class="btn btn-lg btn-primary">asdasd</a>
         <button type="button" class="btn btn-lg btn-info" id="info">["hip", "hip"]</button>
-        <button id="gohome" class="btn btn-danger">Otro</button>
+        <button id="gohome" class="btn btn-danger">Otro</button>-->
     </div>
-    <div id="message"></div>
+    <!--<div id="message"></div>-->
 </div>
 </body>
+<footer>
+ <p class="text-right"><span class="label label-default">CodeIgniter</span> <span class="label label-primary">Bootstrap</span> <span class="label label-danger">HTML5<span></p>
+</footer>
 </html>
