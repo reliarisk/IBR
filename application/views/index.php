@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<base href="<?= site_url();?>">
+<!--<base href="<?= site_url();?>">-->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>IBR</title>
@@ -10,6 +10,9 @@
 <link rel="stylesheet" href="<?= base_url("templates/ibr2015/includes/bootstrap/css/bootstrap-theme.min.css");?>">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="<?= base_url("templates/ibr2015/includes/bootstrap/js/bootstrap.min.js")?>"></script>
+<!--<script src="<?= base_url("templates/ibr2015/js/ibr.js")?>"></script>-->
+    <script src="templates/ibr2015/js/ibr.js"></script>
+
 
 <style>
 body {
@@ -19,50 +22,44 @@ body {
 </style>
 </head>
 <body>
+
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">IBR R2M</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href="#" >
+              <img alt="Brand" src="templates/ibr2015/img/logo_r2m.png" style="max-width: 100px; margin-top: -20px;">
+          </a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="http://ibrdev.azurewebsites.net/">Home</a></li>
-            <li><a href="https://docs.google.com/forms/d/1ZSNuMGHvsBiWJpggjfXaCl9D7eAUqnj7GuvJB5aQ35M/viewform">Punch-In</a></li>
-          </ul>
+            <ul class="nav navbar-nav">
+                <li class="active menu-home"><a id="menu-1" href="http://ibr.reliarisk.info/">Home</a></li>
+                <li class="menu-home"><a id="menu-2" href="#">Punch-In</a></li>
+            </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-    
-        <div class="container">
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Aplicación en Desarrollo</h1>
-        <p>Este proyecto está creciendo ante sus ojos, pronto muchas más características serán añadidas. Mientras tanto sírvase a entrar en la opción “Punch-In” del menú de navegación para reportar su participación en el proyecto.</p>
-
-      </div>
-
-    </div> <!-- /container -->
-    
-<div class="container">
-	<div class="header">
-        <div class="row">
-            <div class="col-xs-12">
-               
+        <div id="container-parent" class="container">
+            <!-- Main component for a primary marketing message or call to action -->
+            <div class="jumbotron">
+                <h1>Aplicación en Desarrollo</h1>
+                <p>Este proyecto está creciendo ante sus ojos, pronto muchas más características serán añadidas. Mientras tanto sírvase a entrar en la opción “Punch-In” del menú de navegación para reportar su participación en el proyecto.</p>
             </div>
-        </div>
-        <hr>
+            <div id="container-1">
 
-    </div>
+                <object id="googleDoc" data="https://docs.google.com/forms/d/1ZSNuMGHvsBiWJpggjfXaCl9D7eAUqnj7GuvJB5aQ35M/viewform" width="100%" height="700px"/>
 
-</div>
+            </div>
+
+        </div> <!-- /container -->
+    
 </body>
 <footer>
  <p class="text-right"><span class="label label-default">CodeIgniter</span> <span class="label label-primary">Bootstrap</span> <span class="label label-danger">HTML5<span></p>
