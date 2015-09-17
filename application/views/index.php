@@ -57,7 +57,7 @@
                 <p>Este proyecto está creciendo ante sus ojos, pronto muchas más características serán añadidas. Mientras tanto sírvase a entrar en la opción “Punch-In” del menú de navegación para reportar su participación en el proyecto.</p>
             </div>
             <div id="container-2">
-                <video width="200%" class="center-block" controls>
+                <video width="150%" class="center-block" controls>
                     <source src="templates/ibr2015/video/Demo.mp4" type="video/mp4">
                     <!--<source src="templates/ibr2015/video/Demo.webm" type="video/webm">-->
                     <!--<source src="https://drive.google.com/file/d/0B2tegvWG3G2lSEJEN1lVcWlMbGs" type="video/ogg">-->
