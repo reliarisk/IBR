@@ -78,10 +78,11 @@ body {
                       Your browser does not support HTML5 video.
                     </video>
                      
+   
             </div>
-    
-</body>
-<footer>
+  <footer>
  <p class="text-right"><span class="label label-default">CodeIgniter</span> <span class="label label-primary">Bootstrap</span> <span class="label label-danger">HTML5<span></p>
-</footer>
+</footer> 
+
+</body>
 </html>
