@@ -1,25 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<!--<base href="<?= site_url();?>">-->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>IBR</title>
-<link rel="stylesheet" href="<?= base_url("templates/ibr2015/css/ibr.css") ?>">
-<link rel="stylesheet" href="<?= base_url("templates/ibr2015/includes/bootstrap/css/bootstrap.min.css");?>">
-<link rel="stylesheet" href="<?= base_url("templates/ibr2015/includes/bootstrap/css/bootstrap-theme.min.css");?>">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="<?= base_url("templates/ibr2015/includes/bootstrap/js/bootstrap.min.js")?>"></script>
-<!--<script src="<?= base_url("templates/ibr2015/js/ibr.js")?>"></script>-->
+    <!--<base href="<?= site_url();?>">-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>IBR</title>
+    <link rel="stylesheet" href="<?= base_url("templates/ibr2015/css/ibr.css") ?>">
+    <link rel="stylesheet" href="<?= base_url("templates/ibr2015/includes/bootstrap/css/bootstrap.min.css");?>">
+    <link rel="stylesheet" href="<?= base_url("templates/ibr2015/includes/bootstrap/css/bootstrap-theme.min.css");?>">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="<?= base_url("templates/ibr2015/includes/bootstrap/js/bootstrap.min.js")?>"></script>
+    <!--<script src="<?= base_url("templates/ibr2015/js/ibr.js")?>"></script>-->
     <script src="templates/ibr2015/js/ibr.js"></script>
-
-
-<style>
-body {
-  min-height: 2000px;
-  padding-top: 70px;
-}
-</style>
+    <style>
+    body {
+      min-height: 2000px;
+      padding-top: 70px;
+    }
+    </style>
 </head>
 <body>
 
@@ -52,35 +50,26 @@ body {
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
+        <!-- Main container -->
         <div id="container-parent" class="container">
-            <!-- Main component for a primary marketing message or call to action -->
             <div class="jumbotron">
-                <h1>Aplicación en Desarrollo</h1>
+                <h1>IBR - reliarisk.info</h1>
                 <p>Este proyecto está creciendo ante sus ojos, pronto muchas más características serán añadidas. Mientras tanto sírvase a entrar en la opción “Punch-In” del menú de navegación para reportar su participación en el proyecto.</p>
             </div>
-            <div id="container-1">
-
-                <object id="googleDoc" data="https://docs.google.com/forms/d/1ZSNuMGHvsBiWJpggjfXaCl9D7eAUqnj7GuvJB5aQ35M/viewform" width="100%" height="700px"/>
-
-            </div>
-
             <div id="container-2">
-
-             
-                     <video width="600" controls>
-                      <source src="templates/ibr2015/video/Demo.mp4" type="video/mp4">
-                      Your browser does not support HTML5 video.
-                    </video>
-                     
+                <video width="100%" class="center-block" controls>
+                    <source src="templates/ibr2015/video/Demo.mp4" type="video/mp4"">
+                    Your browser does not support HTML5 video.
+                </video>
             </div>
-
+            <div id="container-1">
+                <object id="googleDoc" data="https://docs.google.com/forms/d/1ZSNuMGHvsBiWJpggjfXaCl9D7eAUqnj7GuvJB5aQ35M/viewform" width="100%" height="700px"/>
+            </div>
         </div> <!-- /container -->
-        
+    <footer>
+        <p class="text-right"><span class="label label-default">CodeIgniter</span> <span class="label label-primary">Bootstrap</span> <span class="label label-danger">HTML5<span></p>
+    </footer>
 
     
 </body>
-<footer>
- <p class="text-right"><span class="label label-default">CodeIgniter</span> <span class="label label-primary">Bootstrap</span> <span class="label label-danger">HTML5<span></p>
-</footer>
 </html>

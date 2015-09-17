@@ -3,6 +3,7 @@
 $(document).ready(function(){
 
     $('#container-1').hide();
+    $('#container-2').hide();
 
 
 
