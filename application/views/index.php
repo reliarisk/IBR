@@ -58,8 +58,8 @@
             </div>
             <div id="container-2">
                 <video width="100%" class="center-block" controls>
-                    <source src="templates/ibr2015/video/Demo.mp4" type="video/mp4">
-                    <!--<source src="templates/ibr2015/video/Demo.webm" type="video/webm">-->
+                    <!--<source src="templates/ibr2015/video/Demo.mp4" type="video/mp4">-->
+                    <source src="templates/ibr2015/video/Demo.webm" type="video/webm">
                     <!--<source src="https://drive.google.com/file/d/0B2tegvWG3G2lSEJEN1lVcWlMbGs" type="video/ogg">-->
                     Your browser does not support HTML5 video.
                 </video>
