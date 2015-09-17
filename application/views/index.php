@@ -68,10 +68,10 @@ body {
         
                <div id="container-2">
 
-               <video width="600" height="350" controls> 
+               <video width="600" controls> 
 					<source src="templates/ibr2015/video/Demo.mp4" type="video/mp4">
-												</video>
-
+			 </video>
+             
             </div>
 
         </div> <!-- /container -->
