@@ -42,9 +42,9 @@ body {
                 <li class="active menu-home"><a id="menu-1" href="http://ibr.reliarisk.info/">Home</a></li>
                <!-- <li class="menu-home"><a id="menu-2" href="#">Punch-In</a></li>-->
                  <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Punch-In <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="menu-home"><a id="menu-2" href="#">Punch-In</a></li>
+                <li class="menu-home"><a id="menu-2" href="#">Formulario</a></li>
                 <li><a href="#">Tutorial</a></li>
               </ul>
             </li>
