@@ -45,7 +45,7 @@ body {
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Punch-In <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="menu-home"><a id="menu-2" href="#">Formulario</a></li>
-                <li><a id="menu-2.2" href="#">Tutorial</a></li>
+                <li class="menu-home"><a id="menu-2.2" href="#">Tutorial</a></li>
               </ul>
             </li>
             </ul>
