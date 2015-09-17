@@ -22,7 +22,7 @@ $(document).ready(function(){
                 $('#container-1').show();
 				$('#container-2').hide();
                 break;
-            case "menu-2.2": //Video
+            case "menu-3": //Video
 			$('.jumbotron').hide();
                 $('#container-1').hide();
 				$('#container-2').show();
