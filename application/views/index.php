@@ -65,10 +65,6 @@ body {
 
             </div>
 
-
-
-        </div> <!-- /container -->
-        
             <div id="container-2">
 
              
@@ -80,6 +76,10 @@ body {
                      
    
             </div>
+
+        </div> <!-- /container -->
+        
+
   <footer>
  <p class="text-right"><span class="label label-default">CodeIgniter</span> <span class="label label-primary">Bootstrap</span> <span class="label label-danger">HTML5<span></p>
 </footer> 
