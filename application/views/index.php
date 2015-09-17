@@ -45,7 +45,7 @@ body {
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Punch-In <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="menu-home"><a id="menu-2" href="#">Formulario</a></li>
-                <li><a href="#">Tutorial</a></li>
+                <li><a id="menu-2.2" href="#">Tutorial</a></li>
               </ul>
             </li>
             </ul>
@@ -62,6 +62,15 @@ body {
             <div id="container-1">
 
                 <object id="googleDoc" data="https://docs.google.com/forms/d/1ZSNuMGHvsBiWJpggjfXaCl9D7eAUqnj7GuvJB5aQ35M/viewform" width="100%" height="700px"/>
+
+            </div>
+
+        
+               <div id="container-2">
+
+               <video width="600" height="350" controls> 
+					<source src="video/Demo.mp4" type="video/mp4">
+												</video>
 
             </div>
 
