@@ -70,7 +70,7 @@ body {
              
                      <video width="600" controls>
                       <!--<source src="templates/ibr2015/video/Demo.mp4" type="video/mp4">-->
-                      <source src="https://drive.google.com/file/d/0B2tegvWG3G2lSEJEN1lVcWlMbGs" type="video/mp4">
+                      <source src="https://drive.google.com/file/d/0B2tegvWG3G2lSEJEN1lVcWlMbGs/view?usp=sharing" type="video/mp4">
                       Your browser does not support HTML5 video.
                     </video>
                      
