@@ -11,7 +11,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="<?= base_url("templates/ibr2015/includes/bootstrap/js/bootstrap.min.js")?>"></script>
 <!--<script src="<?= base_url("templates/ibr2015/js/ibr.js")?>"></script>-->
-    <script src="templates/ibr2015/js/ibr.js"></script>
+    <!--<script src="templates/ibr2015/js/ibr.js"></script>-->
 
 
 <style>
@@ -55,7 +55,7 @@ body {
 
         <div id="container-parent" class="container">
             <!-- Main component for a primary marketing message or call to action -->
-            <div class="jumbotron">
+            <!--<div class="jumbotron">
                 <h1>Aplicación en Desarrollo</h1>
                 <p>Este proyecto está creciendo ante sus ojos, pronto muchas más características serán añadidas. Mientras tanto sírvase a entrar en la opción “Punch-In” del menú de navegación para reportar su participación en el proyecto.</p>
             </div>
@@ -65,7 +65,7 @@ body {
 
             </div>
 
-            <div id="container-2">
+            <div id="container-2">-->
 
              
                      <video width="600" controls>
@@ -75,12 +75,12 @@ body {
                     </video>
                      
    
-            </div>
+            <!--</div>-->
 
         </div> <!-- /container -->
         
 
-  <footer>
+ <footer>
  <p class="text-right"><span class="label label-default">CodeIgniter</span> <span class="label label-primary">Bootstrap</span> <span class="label label-danger">HTML5<span></p>
 </footer> 
 
