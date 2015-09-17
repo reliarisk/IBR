@@ -65,9 +65,6 @@ body {
 
             </div>
 
-
-        </div> <!-- /container -->
-        
             <div id="container-2">
 
              
@@ -77,6 +74,10 @@ body {
                     </video>
                      
             </div>
+
+        </div> <!-- /container -->
+        
+
     
 </body>
 <footer>
