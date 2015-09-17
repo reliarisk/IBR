@@ -69,7 +69,7 @@ body {
                <div id="container-2">
 
                <video width="600" height="350" controls> 
-					<source src="video/Demo.mp4" type="video/mp4">
+					<source src="templates/ibr2015/video/Demo.mp4" type="video/mp4">
 												</video>
 
             </div>
