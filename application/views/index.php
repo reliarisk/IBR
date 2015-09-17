@@ -65,8 +65,10 @@ body {
 
             </div>
 
+
+        </div> <!-- /container -->
         
-               <div id="container-2">
+            <div id="container-2">
 
              
                      <video width="600" controls>
@@ -75,8 +77,6 @@ body {
                     </video>
                      
             </div>
-
-        </div> <!-- /container -->
     
 </body>
 <footer>
